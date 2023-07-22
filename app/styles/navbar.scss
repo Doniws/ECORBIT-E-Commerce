@@ -1,0 +1,194 @@
+.navbar {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .top-nav {
+        background-color: #ececec;
+        height: 24px;
+        width: 100%;
+        flex-direction: row-reverse;
+        display: flex;
+        align-items: center;
+        padding: 0 14px;
+        gap: 20px;
+        font-size: 13px;
+        justify-content: flex-start;
+    }
+
+    nav {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        height: 64px;
+
+        .left {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            h1 {
+                color: #0077ff;
+            }
+
+        }
+
+        .left-category {
+            list-style: none;
+            display: flex;
+            gap: 6px;
+
+            li {
+                // background-color: #ebebeb;
+                padding: 8px;
+                border-radius: 8px;
+                font-size: 14px;
+                cursor: pointer;
+                color: #757575;
+
+                &:hover {
+                    background-color: #ebebeb;
+                }
+            }
+
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .input-wrap {
+                width: 400px;
+                height: 44px;
+
+                input {
+                    border-top-left-radius: 25px;
+                    border-bottom-left-radius: 25px;
+                    outline: none;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgb(244, 246, 248);
+                    border: none;
+                    padding: 10px;
+
+                    ::placeholder {
+                        color: #acacac;
+
+                    }
+                }
+            }
+
+            button {
+                background-color: rgb(244, 246, 248);
+                border: none;
+                height: 44px;
+                width: 44px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-top-right-radius: 25px;
+                border-bottom-right-radius: 25px;
+                &:hover {
+                    background-color: #ebebeb;
+                }   
+                i {
+                    font-size: 18px;
+                    color: #acacac;
+                    cursor: pointer;
+                }
+                
+            }
+        }
+
+        .line {
+            width: 1px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #c2c2c2;
+        }
+
+        .right-category {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            i {
+                cursor: pointer;
+                color: #141414;
+                font-size: 20px;
+            }
+
+        }
+
+        .right {
+            display: flex;
+            align-items: center;
+            gap: 26px;
+
+            .profile-wrap {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+
+                .profile-img {
+                    width: 40px;
+                    height: 40px;
+                    cursor: pointer;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 50%;
+                        object-fit: cover;
+
+                    }
+                }
+
+                .username {
+                    font-size: 16px;
+                    font-weight: 500;
+
+                }
+            }
+
+            .shop-wrap {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+
+                i {
+                    font-size: 20px;
+                    color: #0077ff;
+                    background-color: #ebebeb;
+                    border-radius: 50%;
+                    padding: 10px;
+                    width: 40px;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+
+            i {
+                font-size: 20px;
+                color: #141414;
+                cursor: pointer;
+            }
+        }
+    }
+}
