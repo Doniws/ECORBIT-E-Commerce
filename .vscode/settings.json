@@ -1,3 +1,36 @@
 {
-    "compile-hero.disable-compile-files-on-did-save-code": true
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "node_modules": true,
+        "src/assets/FontAwesome6Pro": true,
+        "app/assets/FontAwesome6Pro": true
+    },
+    "hide-files.files": [
+        "node_modules",
+        "src/assets/FontAwesome6Pro"
+    ],
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#e9ff25",
+        "activityBar.background": "#9535d4",
+        "activityBar.foreground": "#ff0000",
+        "activityBar.inactiveForeground": "#ffffff99",
+        "activityBarBadge.background": "#00d400",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#ffffff99",
+        "sash.hoverBorder": "#9535d4",
+        "statusBar.background": "#f70c0c",
+        "statusBar.foreground": "#ffffff",
+        "statusBarItem.hoverBackground": "#9535d4",
+        "statusBarItem.remoteBackground": "#f70c0c",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#f70c0c",
+        "titleBar.activeForeground": "#ffffff",
+        "titleBar.inactiveBackground": "#f70c0c99",
+        "titleBar.inactiveForeground": "#ffffff99"
+    }
 }
