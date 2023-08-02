@@ -13,8 +13,9 @@ import Logo from "./assets/logodouble.png"
 export default function Main() {
   return (
     <main className="container-main">
+      <NavBar />
       <div className="wrapper-main">
-        <NavBar />
+        
         <SwiperGrid />
         <Category />
         <div className="container-card">

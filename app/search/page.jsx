@@ -4,8 +4,9 @@ import Card from "../components/Card";
 export default function Search() {
   return (
     <section className="container-search">
+      <NavBar />
       <div className="wrapper-search">
-        <NavBar />
+        
         <div className="container-filter">
           <h2>
             <i className="fa-solid fa-filter-list"></i>FILTER
